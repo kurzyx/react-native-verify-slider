@@ -13,16 +13,14 @@ export default StyleSheet.create({
     flex: 1,
     flexDirection: 'row'
   },
-  sliderKnob: {
-    elevation: 1,
-    flex: 0,
-    height: 76,
+  sliderKnobContainer: {
     width: 76,
-    backgroundColor: '#FFF',
+    height: 76
+  },
+  sliderKnob: {
     borderRadius: 9999,
     alignItems: 'center',
-    justifyContent: 'center',
-    zIndex: 1
+    justifyContent: 'center'
   },
   right: {
     position: 'absolute',
