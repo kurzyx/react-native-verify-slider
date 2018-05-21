@@ -1,7 +1,7 @@
 {
   "name": "react-native-verify-slider",
   "version": "0.0.1",
-  "description": "A customizable Verification Slider component for React Native",
+  "description": "An animated Verification Slider component for React Native",
   "author": "kurzyx",
   "main": "src/index.js",
   "repository": {
