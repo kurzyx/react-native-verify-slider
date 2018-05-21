@@ -1,7 +1,7 @@
 import { StyleSheet } from 'react-native';
 
 export default StyleSheet.create({
-  sliderContainer: {
+  container: {
     elevation: 2,
     height: 80,
     width: 350,
@@ -9,33 +9,29 @@ export default StyleSheet.create({
     backgroundColor: '#777',
     borderRadius: 9999
   },
-  sliderInnerContainer: {
-    flex: 1,
-    flexDirection: 'row'
+  buttonContainer: {
+    height: '100%',
+    aspectRatio: 1
   },
-  sliderKnobContainer: {
-    width: 76,
-    height: 76
-  },
-  sliderKnob: {
+  button: {
     borderRadius: 9999,
     alignItems: 'center',
     justifyContent: 'center'
   },
-  right: {
-    position: 'absolute',
-    left: 76 + 10,
-    top: 0,
-    right: 20,
-    bottom: 0,
+  buttonStyled: {
+    elevation: 1,
+    backgroundColor: '#FFF'
+  },
+  rightContainer: {
+    flex: 1,
+    paddingLeft: 10,
+    paddingRight: 20,
     justifyContent: 'center'
   },
-  left: {
-    position: 'absolute',
-    left: 20,
-    top: 0,
-    right: 76 + 10,
-    bottom: 0,
+  leftContainer: {
+    ...StyleSheet.absoluteFillObject,
+    paddingLeft: 20,
+    paddingRight: 10,
     justifyContent: 'center'
   }
 });
