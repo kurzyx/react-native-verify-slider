@@ -1,0 +1,29 @@
+{
+  "name": "react-native-verify-slider",
+  "version": "0.0.1",
+  "description": "A customizable Verification Slider component for React Native",
+  "author": "kurzyx <1412696+kurzyx@users.noreply.github.com>",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:kurzyx/react-native-verify-slider.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "react-native",
+    "react-component",
+    "verify",
+    "verify-slider",
+    "verify-button",
+    "verification",
+    "verification-slider",
+    "verification-button",
+    "slider",
+    "button"
+  ],
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  }
+}
