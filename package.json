@@ -2,7 +2,7 @@
   "name": "react-native-verify-slider",
   "version": "0.0.1",
   "description": "A customizable Verification Slider component for React Native",
-  "author": "kurzyx <1412696+kurzyx@users.noreply.github.com>",
+  "author": "kurzyx",
   "main": "src/index.js",
   "repository": {
     "type": "git",
